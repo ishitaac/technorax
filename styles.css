@@ -114,10 +114,16 @@ body {
 }
 
 .landmark-location {
-  background-color: #ADD4F5;
-  color: #000000;
+  background-color: #000000;
+  color: #FFFFFF;
   padding: 5px 10px;
   border-radius: 12px;
+  text-decoration: none;
+}
+
+.landmark-location:hover {
+  background-color: #000000;
+  color: #FFFFFF;
   text-decoration: none;
 }
 
