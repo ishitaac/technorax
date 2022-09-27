@@ -258,10 +258,27 @@ body {
 
 /* SPEAKERS ENDS*/
 /* SPONSORS */
-.sponsor-image {
-  margin: 0 1.2rem 2rem 1.2rem;
-  height: auto;
-  width: 13rem;
+.Sponsors_outer {
+  padding: 3rem;
+}
+
+.Sponsors_img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.Sponsors_circle {
+  border: 0.5rem solid #fff;
+  background-color: #fff;
+  border-radius: 50%;
+  position: relative;
+  height: 9rem;
+  width: 9rem;
+  cursor: pointer;
+  transition-duration: .2s;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 5%), 0 2px 2px rgb(0 0 0 / 5%), 0 4px 4px rgb(0 0 0 / 5%), 0 6px 8px rgb(0 0 0 / 5%), 0 8px 16px rgb(0 0 0 / 5%);
 }
 
 /* FAQS */
@@ -366,7 +383,7 @@ a:focus {
 .footer .footer-contact i {
   margin-right: 10px;
   font-size: 16px;
-  color: #eeeeee;
+  color: #EEEEEE;
 }
 
 .footer .footer-contact a:last-child i {
@@ -484,11 +501,10 @@ a:focus {
   box-shadow: 1px 1px 5px #47AEC9;
 }
 
-.register:hover{
+.register:hover {
   color: #FFFFFF;
   text-decoration: none;
 }
-
 
 /* FOOTER ENDS */
 /* RESPONSIVE BODY */
@@ -544,7 +560,20 @@ a:focus {
   }
 
   .discord {
-    display:none;
+    display: none;
+  }
+
+  .Sponsors_outer {
+    padding: 1.5rem;
+  }
+
+  .Sponsors_img {
+    gap: 2.5rem;
+  }
+
+  .Sponsors_circle {
+    height: 5rem;
+    width: 5rem;
   }
 }
 
@@ -586,6 +615,19 @@ a:focus {
   .accordion {
     padding: 0 1.3rem 2rem 1.3rem;
   }
+
+  .Sponsors_outer {
+    padding: 1.5rem;
+  }
+
+  .Sponsors_img {
+    gap: 2.5rem;
+  }
+
+  .Sponsors_circle {
+    height: 5rem;
+    width: 5rem;
+  }
 }
 
 @media only screen and (min-device-width : 580px) and (max-device-width : 668px) {
@@ -596,6 +638,19 @@ a:focus {
   .main-heading {
     font-size: 5.8rem;
   }
+
+  .Sponsors_outer {
+    padding: 1.5rem;
+  }
+
+  .Sponsors_img {
+    gap: 2.5rem;
+  }
+
+  .Sponsors_circle {
+    height: 5rem;
+    width: 5rem;
+  }
 }
 
 @media only screen and (min-device-width : 668px) and (max-device-width : 1024px) {
@@ -605,6 +660,19 @@ a:focus {
 
   .main-heading {
     font-size: 6.2rem;
+  }
+
+  .Sponsors_outer {
+    padding: 1.5rem;
+  }
+
+  .Sponsors_img {
+    gap: 2.5rem;
+  }
+
+  .Sponsors_circle {
+    height: 5rem;
+    width: 5rem;
   }
 }
 
