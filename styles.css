@@ -23,7 +23,7 @@ body {
 
 /* BODY WRAPPER */
 .header-wrapper {
-  background-image: url("Images/1.png");
+  background-image: url("Images/Home.png");
   /* background-image: url("Images/Header.webp"); */
   height: 100vh;
   /* background-attachment: fixed; */
@@ -50,7 +50,7 @@ body {
 }
 
 .nav-link:hover {
-  color: #3837FF;
+  color: #FFFFFF;
 }
 
 .navbar-toggler {
@@ -91,7 +91,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   color: #000000;
-  font-size: 5rem;
+  font-size: 8.2rem;
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
@@ -264,55 +264,6 @@ body {
   width: 13rem;
 }
 
-/* SPONSORS */
-.sponsor-wrapper {
-  font-family: 'Inconsolata', monospace;
-  padding: 2em 5em 2em 5em;
-}
-
-.sponsor-heading {
-  font-family: 'Rubik Moonrocks', cursive;
-  color: #EC3655;
-  font-size: 5.2rem;
-  font-weight: bolder;
-}
-
-.sponsor-subheading{
-  font-family: 'Rubik Moonrocks', cursive;
-  font-size: 2.9rem;
-  font-weight: bolder;
-  color: #FF914D;
-  padding: 2rem;
-}
-
-.logo{
-  height: auto;
-  width: 13rem;
-  margin: 2em;
-}
-
-.prizes-wrapper {
-  font-family: 'Inconsolata', monospace;
-  padding: 5em 5em 2em 5em;
-  background-color: #000000;
-  color: white;
-}
-
-.prizes-heading {
-  font-family: 'Titan One', cursive;
-  color: white;
-  font-size: 5.2rem;
-  font-weight: bolder;
-}
-
-.prizes-subheading{
-  color: white;
-  font-family: 'Inconsolata', monospace;
-  font-size: 2rem;
-  font-weight: 800;
-}
-
-
 /* FAQS */
 .faq-lead {
   font-family: 'Inconsolata', monospace;
@@ -323,24 +274,6 @@ body {
 .accordion {
   border-color: #000000 !important;
   padding: 0 3rem 3rem 3rem;
-}
-
-.discord {
-  display: block;
-  min-width: 50px;
-  max-width: 60px;
-  position: fixed;
-  right: 1%;
-  top: 90%;
-  width: 10%;
-  z-index: 10000;
-}
-
-.discord img {
-  background-color: #1d539f;
-  padding: 0.5rem;
-  border-radius: 5px;
-  width: 100%;
 }
 
 /* FOOTER */
@@ -512,6 +445,51 @@ a:focus {
   border-right: none;
 }
 
+/* DISCORD NOW BUTTON */
+.discord {
+  display: block;
+  min-width: 50px;
+  max-width: 60px;
+  position: fixed;
+  left: 1%;
+  top: 90%;
+  width: 10%;
+  z-index: 10000;
+}
+
+.discord img {
+  background-color: #1d539f;
+  padding: 0.5rem;
+  border-radius: 5px;
+  width: 100%;
+}
+
+/* REGISTER NOW BUTTON */
+.register {
+  display: block;
+  min-width: 100px;
+  max-width: 150px;
+  position: fixed;
+  right: 1%;
+  top: 91%;
+  width: 10%;
+  z-index: 10000;
+  color: #FFFFFF;
+  text-decoration: none;
+  background-color: #000000;
+  padding: 0.8rem 0.5rem;
+  border-radius: 5px;
+  width: 100%;
+  outline: 0.8px dotted #47AEC9;
+  box-shadow: 1px 1px 5px #47AEC9;
+}
+
+.register:hover{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+
 /* FOOTER ENDS */
 /* RESPONSIVE BODY */
 @media only screen and (min-device-width : 181px) and (max-device-width : 320px) {
@@ -618,20 +596,6 @@ a:focus {
   .main-heading {
     font-size: 5.8rem;
   }
-  .register{
-    margin-right: 0;
-    margin-top: 32rem;
-    font-size: 20px;
-  }
-  .mr-0 {
-    margin-right: 3rem;
-  }
-  .ml-auto {
-    margin-left:auto;
-  }
-  .d-block {
-    display:block;
-  }
 }
 
 @media only screen and (min-device-width : 668px) and (max-device-width : 1024px) {
@@ -641,13 +605,6 @@ a:focus {
 
   .main-heading {
     font-size: 6.2rem;
-  }
-
-  .register-btn{
-    justify-content: center;
-    align-items: center;
-    font-size: 10px;
-
   }
 }
 
@@ -662,52 +619,3 @@ a:focus {
     margin-bottom: 5px;
   }
 }
-
-/* SLIDER */
-.register{
-  margin-right: 0;
-  margin-top: 32rem;
-  font-size: 20px;
-}
-.mr-0 {
-  margin-right: 16.9rem;
-}
-.ml-auto {
-  margin-left:auto;
-}
-.d-block {
-  display:block;
-}
-a{
-  text-decoration: none;
-}
-
-.register-btn .register span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.register-btn .register span::after {
-  content: '\00BB';
-  color: #ffffff;
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.register-btn .register:hover span {
-  padding-right: 25px;
-}
-
-.register-btn .register :hover span:after {
-  opacity: 1;
-  right: 0;
-}
-
-
-
-/* slider */
