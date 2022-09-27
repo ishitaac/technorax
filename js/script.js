@@ -14,7 +14,7 @@ var swiper = new Swiper(".slide-content", {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
-
+    
     breakpoints:{
         0: {
             slidesPerView: 1,
@@ -33,3 +33,26 @@ var swiper = new Swiper(".slide-content", {
     interval: 3000,
     cycle: true
   }); 
+
+  // SLIDER-SPONSOR
+  $('.logos-slider').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1500,
+    arrows: false,
+    dots: false,
+    pauseOnHover: false,
+    responsive: [{
+    breakpoint: 768,
+    settings: {
+    slidesToShow: 3
+    }
+    }, {
+    breakpoint: 520,
+    settings: {
+    slidesToShow: 2
+    }
+    }]
+    });
+  
