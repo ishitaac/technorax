@@ -544,7 +544,7 @@ a:focus {
   }
 
   .discord {
-    top: 57%;
+    display:none;
   }
 }
 
