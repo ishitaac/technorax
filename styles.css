@@ -50,7 +50,7 @@ body {
 }
 
 .nav-link:hover {
-  color: #FFFFFF;
+  color: #3837FF;
 }
 
 .navbar-toggler {
@@ -94,15 +94,6 @@ body {
   font-size: 8.2rem;
   padding-top: 3rem;
   padding-bottom: 3rem;
-}
-
-.submain-heading {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
-  color: #000000;
-  font-size: 4.2rem;
-  padding-top: 3rem;
-  padding-bottom: 2rem;
 }
 
 /* SCHEDULE */
@@ -615,11 +606,6 @@ a:focus {
     padding-bottom: 1rem;
   }
 
-  .submain-heading {
-    font-size: 2.2rem;
-    padding-bottom: 1rem;
-  }
-
   .schedule-wrapper {
     padding: 1.3rem;
   }
@@ -657,11 +643,6 @@ a:focus {
 
   .main-heading {
     font-size: 5.8rem;
-  }
-
-  .submain-heading {
-    font-size: 4rem;
-    padding-bottom: 1.3rem;
   }
 
   .Sponsors_outer {
